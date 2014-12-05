@@ -295,7 +295,7 @@ public class DataHelper {
                 String str = solution.get("?name").asLiteral().getString();
                 // Result processing is done here.
                 Question question = new Question();
-                question.setQuestion("What are the casualties of the war " + str + " at least ?");
+                question.setQuestion("What are the casualties of the " + str + " at least ?");
                 question.setRightAnswer(str2);
                 questions.add(question);
             }
