@@ -77,7 +77,7 @@ public class DataHelper {
                 String str = solution.get("?country").asLiteral().getString();
                 // Result processing is done here.
                 Question question = new Question();
-                question.setQuestion("What's the population census on " + str + " ?");
+                question.setQuestion("What is the population census in " + str + " ?");
                 question.setRightAnswer(str2);
                 questions.add(question);
             }
@@ -150,7 +150,7 @@ public class DataHelper {
                 String str = solution.get("?country").asLiteral().getString();
                 // Result processing is done here.
                 Question question = new Question();
-                question.setQuestion("What's the Gross Domestic Product for " + str + " ?");
+                question.setQuestion("What is the Gross Domestic Product for " + str + " ?");
                 question.setRightAnswer(str2);
                 questions.add(question);
             }
@@ -224,7 +224,7 @@ public class DataHelper {
                 String str = solution.get("?country").asLiteral().getString();
                 // Result processing is done here.
                 Question question = new Question();
-                question.setQuestion("What's the human development index for " + str + " ?");
+                question.setQuestion("What is the human development index for " + str + " ?");
                 question.setRightAnswer(str2);
                 questions.add(question);
             }
@@ -295,7 +295,7 @@ public class DataHelper {
                 String str = solution.get("?name").asLiteral().getString();
                 // Result processing is done here.
                 Question question = new Question();
-                question.setQuestion("What's ast least the casualties fo the war " + str + " ?");
+                question.setQuestion("What are the casualties fo the war " + str + " at least ?");
                 question.setRightAnswer(str2);
                 questions.add(question);
             }
